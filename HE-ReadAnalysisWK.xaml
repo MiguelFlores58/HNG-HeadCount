@@ -115,7 +115,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="HE_ReadAnalysisWK" sap:VirtualizedContainerService.HintSize="1425,3813" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="HE_ReadAnalysisWK" sap:VirtualizedContainerService.HintSize="1242,8460" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataRow" Name="rowFilaFechas" />
       <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="dictColDestino" />
@@ -129,7 +129,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="640,3790" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="684,8437" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="s:DateTime" Name="dateLunesActual" />
         <Variable x:TypeArguments="sd:DataTable" Name="dtWeek" />
@@ -146,7 +146,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Poner fechas de lunes en Analysis Week" sap:VirtualizedContainerService.HintSize="606,57" sap2010:WorkflowViewState.IdRef="Sequence_151">
+      <Sequence DisplayName="Poner fechas de lunes en Analysis Week" sap:VirtualizedContainerService.HintSize="650,57" sap2010:WorkflowViewState.IdRef="Sequence_151">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -318,7 +318,7 @@
           </TryCatch.Finally>
         </TryCatch>
       </Sequence>
-      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="606,57" sap2010:WorkflowViewState.IdRef="CommentOut_13">
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="650,57" sap2010:WorkflowViewState.IdRef="CommentOut_13">
         <ui:CommentOut.Body>
           <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,108" sap2010:WorkflowViewState.IdRef="Sequence_144">
             <sap:WorkflowViewStateService.ViewState>
@@ -434,7 +434,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:CommentOut>
-      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="606,57" sap2010:WorkflowViewState.IdRef="CommentOut_11">
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="650,57" sap2010:WorkflowViewState.IdRef="CommentOut_11">
         <ui:CommentOut.Body>
           <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,108" sap2010:WorkflowViewState.IdRef="Sequence_126">
             <sap:WorkflowViewStateService.ViewState>
@@ -603,7 +603,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:CommentOut>
-      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="606,57" sap2010:WorkflowViewState.IdRef="CommentOut_14">
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="650,57" sap2010:WorkflowViewState.IdRef="CommentOut_14">
         <ui:CommentOut.Body>
           <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,108" sap2010:WorkflowViewState.IdRef="Sequence_150">
             <sap:WorkflowViewStateService.ViewState>
@@ -1010,7 +1010,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:CommentOut>
-      <Sequence DisplayName="Agrupar en Work Center" sap:VirtualizedContainerService.HintSize="574,3938" sap2010:WorkflowViewState.IdRef="Sequence_128">
+      <Sequence DisplayName="Agrupar en Work Center" sap:VirtualizedContainerService.HintSize="650,6682" sap2010:WorkflowViewState.IdRef="Sequence_128">
         <Sequence.Variables>
           <Variable x:TypeArguments="scg:Dictionary(x:String, x:Int32)" Name="dictWC_Index" />
           <Variable x:TypeArguments="sl:IGrouping(x:String, sd:DataRow)" Name="vGposWC" />
@@ -1028,8 +1028,8 @@
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:BuildDataTable DataTable="[dtWC_Releases]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="540,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_3" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;WC&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;B&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;C&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BI&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BJ&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BK&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BL&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BM&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BN&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BO&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BP&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BQ&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BR&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BS&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BT&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BU&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BV&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BW&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BX&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BY&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;BZ&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;CA&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;CB&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;CD&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;CE&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;CF&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;CG&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;CH&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;CI&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;&lt;/NewDataSet&gt;" />
-        <Sequence DisplayName="Generar Diccionario Parte -&gt; WorkCenter" sap:VirtualizedContainerService.HintSize="540,1055" sap2010:WorkflowViewState.IdRef="Sequence_78">
+        <ui:BuildDataTable DataTable="[dtWC_Releases]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="616,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_3" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;WC&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;B&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;C&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BI&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BJ&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BK&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BL&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BM&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BN&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BO&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BP&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BQ&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BR&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BS&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BT&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BU&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BV&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BW&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BX&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BY&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BZ&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;CA&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;CB&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;CD&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;CE&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;CF&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;CG&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;CH&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;CI&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
+        <Sequence DisplayName="Generar Diccionario Parte -&gt; WorkCenter" sap:VirtualizedContainerService.HintSize="616,1112" sap2010:WorkflowViewState.IdRef="Sequence_78">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1041,7 +1041,7 @@
               <OutArgument x:TypeArguments="x:String">[strPath]</OutArgument>
             </Assign.To>
             <Assign.Value>
-              <InArgument x:TypeArguments="x:String">D:\Documentos\Henniges\numeros de parte y work center.xlsx</InArgument>
+              <InArgument x:TypeArguments="x:String">C:\Documentos\Henniges\numeros de parte y work center.xlsx</InArgument>
             </Assign.Value>
           </Assign>
           <TryCatch DisplayName="Try Catch de Leer Relacion" sap:VirtualizedContainerService.HintSize="506,57" sap2010:WorkflowViewState.IdRef="TryCatch_8">
@@ -1134,19 +1134,19 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </Assign>
-          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtRelacion]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="506,676" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
+          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtRelacion]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="506,733" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
             <ui:ForEachRow.Body>
               <ActivityAction x:TypeArguments="sd:DataRow">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="504,503" sap2010:WorkflowViewState.IdRef="Sequence_79">
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="504,560" sap2010:WorkflowViewState.IdRef="Sequence_79">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <If Condition="[Not String.IsNullOrWhiteSpace(CurrentRow(&quot;AREAS&quot;).ToString())]" DisplayName="Si tiene valor" sap:VirtualizedContainerService.HintSize="470,443" sap2010:WorkflowViewState.IdRef="If_10">
+                  <If Condition="[Not String.IsNullOrWhiteSpace(CurrentRow(&quot;AREAS&quot;).ToString()) AndAlso Not String.IsNullOrWhiteSpace(CurrentRow(&quot;PART_NO&quot;).ToString) AndAlso Not CurrentRow(&quot;PART_NO&quot;).ToString.Trim.StartsWith(&quot;Suma&quot;)]" DisplayName="Si tiene valor" sap:VirtualizedContainerService.HintSize="470,500" sap2010:WorkflowViewState.IdRef="If_10">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1154,7 +1154,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                     <If.Then>
-                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,223" sap2010:WorkflowViewState.IdRef="Sequence_97">
+                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,280" sap2010:WorkflowViewState.IdRef="Sequence_97">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="x:String" Name="strParteCorta" />
                         </Sequence.Variables>
@@ -1188,7 +1188,32 @@
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                         </ui:CommentOut>
-                        <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_93">
+                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="CommentOut_18">
+                          <ui:CommentOut.Body>
+                            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="468,166" sap2010:WorkflowViewState.IdRef="Sequence_182">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_93">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:String">[dictParteA_WC(CurrentRow("PART_NO").ToString().Split("-"c).First().Trim())]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:String">[CurrentRow("AREAS").ToString.Trim()]</InArgument>
+                                </Assign.Value>
+                              </Assign>
+                            </Sequence>
+                          </ui:CommentOut.Body>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:CommentOut>
+                        <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_96">
                           <Assign.To>
                             <OutArgument x:TypeArguments="x:String">[dictParteA_WC(CurrentRow("PART_NO").ToString().Split("-"c).First().Trim())]</OutArgument>
                           </Assign.To>
@@ -1220,11 +1245,11 @@
             </sap:WorkflowViewStateService.ViewState>
           </ui:ForEachRow>
         </Sequence>
-        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="540,57" sap2010:WorkflowViewState.IdRef="TryCatch_9">
+        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="616,1312" sap2010:WorkflowViewState.IdRef="TryCatch_9">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-              <x:Boolean x:Key="IsPinned">True</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <TryCatch.Try>
@@ -1306,8 +1331,24 @@
             </Sequence>
           </TryCatch.Finally>
         </TryCatch>
-        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="WorkCenter" DataTable="[dtVolVta]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="540,221" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_1" />
-        <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtVolVta]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="540,994" sap2010:WorkflowViewState.IdRef="ForEachRow_5">
+        <ui:FilterDataTable DataTable="[dtVolVta]" DisplayName="Filter Data Table" FilterRowsMode="Remove" sap:VirtualizedContainerService.HintSize="616,195" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[dtVolVta]" SelectColumnsMode="Remove">
+          <ui:FilterDataTable.Filters>
+            <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+              <ui:FilterOperationArgument Operand="{x:Null}" BooleanOperator="And" Operator="EMPTY">
+                <ui:FilterOperationArgument.Column>
+                  <InArgument x:TypeArguments="x:Int32">[0]</InArgument>
+                </ui:FilterOperationArgument.Column>
+              </ui:FilterOperationArgument>
+            </scg:List>
+          </ui:FilterDataTable.Filters>
+          <ui:FilterDataTable.SelectColumns>
+            <scg:List x:TypeArguments="InArgument" Capacity="4">
+              <x:Null />
+            </scg:List>
+          </ui:FilterDataTable.SelectColumns>
+        </ui:FilterDataTable>
+        <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="WorkCenter" DataTable="[dtVolVta]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="616,221" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_1" />
+        <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtVolVta]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="616,994" sap2010:WorkflowViewState.IdRef="ForEachRow_5">
           <ui:ForEachRow.Body>
             <ActivityAction x:TypeArguments="sd:DataRow">
               <ActivityAction.Argument>
@@ -1374,7 +1415,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:ForEachRow>
-        <Assign sap:VirtualizedContainerService.HintSize="540,115" sap2010:WorkflowViewState.IdRef="Assign_84">
+        <Assign sap:VirtualizedContainerService.HintSize="616,115" sap2010:WorkflowViewState.IdRef="Assign_84">
           <Assign.To>
             <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:Int32)">[dictWC_Index]</OutArgument>
           </Assign.To>
@@ -1382,13 +1423,29 @@
             <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Int32)">[New Dictionary(Of String, Int32)]</InArgument>
           </Assign.Value>
         </Assign>
-        <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtVolVta]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="540,1344" sap2010:WorkflowViewState.IdRef="ForEachRow_6">
+        <ui:FilterDataTable DataTable="[dtVolVta]" DisplayName="Filter Data Table" FilterRowsMode="Remove" sap:VirtualizedContainerService.HintSize="616,195" sap2010:WorkflowViewState.IdRef="FilterDataTable_2" OutputDataTable="[dtVolVta]" SelectColumnsMode="Remove">
+          <ui:FilterDataTable.Filters>
+            <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+              <ui:FilterOperationArgument Operand="{x:Null}" BooleanOperator="And" Operator="EMPTY">
+                <ui:FilterOperationArgument.Column>
+                  <InArgument x:TypeArguments="x:String">["WorkCenter"]</InArgument>
+                </ui:FilterOperationArgument.Column>
+              </ui:FilterOperationArgument>
+            </scg:List>
+          </ui:FilterDataTable.Filters>
+          <ui:FilterDataTable.SelectColumns>
+            <scg:List x:TypeArguments="InArgument" Capacity="4">
+              <x:Null />
+            </scg:List>
+          </ui:FilterDataTable.SelectColumns>
+        </ui:FilterDataTable>
+        <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtVolVta]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="616,2354" sap2010:WorkflowViewState.IdRef="ForEachRow_6">
           <ui:ForEachRow.Body>
             <ActivityAction x:TypeArguments="sd:DataRow">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="538,1171" sap2010:WorkflowViewState.IdRef="Sequence_160">
+              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="608,2181" sap2010:WorkflowViewState.IdRef="Sequence_160">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:Int32" Name="rowIndex" />
                 </Sequence.Variables>
@@ -1397,15 +1454,15 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <If Condition="[dictWC_Index.ContainsKey(CurrentRow(&quot;WorkCenter&quot;).ToString)]" sap:VirtualizedContainerService.HintSize="504,1111" sap2010:WorkflowViewState.IdRef="If_16">
+                <If Condition="[dictWC_Index.ContainsKey(CurrentRow(&quot;WorkCenter&quot;).ToString)]" sap:VirtualizedContainerService.HintSize="574,2121" sap2010:WorkflowViewState.IdRef="If_16">
                   <If.Then>
-                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="502,594" sap2010:WorkflowViewState.IdRef="Sequence_161">
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="572,1389" sap2010:WorkflowViewState.IdRef="Sequence_161">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Assign sap:VirtualizedContainerService.HintSize="468,115" sap2010:WorkflowViewState.IdRef="Assign_85">
+                      <Assign sap:VirtualizedContainerService.HintSize="538,115" sap2010:WorkflowViewState.IdRef="Assign_85">
                         <Assign.To>
                           <OutArgument x:TypeArguments="x:Int32">[rowIndex]</OutArgument>
                         </Assign.To>
@@ -1413,7 +1470,7 @@
                           <InArgument x:TypeArguments="x:Int32">[dictWC_Index(CurrentRow("WorkCenter").ToString)]</InArgument>
                         </Assign.Value>
                       </Assign>
-                      <Sequence DisplayName="Actualizo todas las columnas" sap:VirtualizedContainerService.HintSize="468,419" sap2010:WorkflowViewState.IdRef="Sequence_171">
+                      <Sequence DisplayName="Actualizo todas las columnas" sap:VirtualizedContainerService.HintSize="538,1214" sap2010:WorkflowViewState.IdRef="Sequence_171">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="x:Double" Name="decValorActual" />
                           <Variable x:TypeArguments="x:Double" Name="decValorWC" />
@@ -1423,49 +1480,134 @@
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_89">
-                          <Assign.To>
-                            <OutArgument x:TypeArguments="x:Double">[decValorActual]</OutArgument>
-                          </Assign.To>
-                          <Assign.Value>
-                            <InArgument x:TypeArguments="x:Double">[Convert.ToDouble(CurrentRow("7-oct"))]</InArgument>
-                          </Assign.Value>
-                        </Assign>
-                        <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_88">
-                          <Assign.To>
-                            <OutArgument x:TypeArguments="x:Double">[decValorWC]</OutArgument>
-                          </Assign.To>
-                          <Assign.Value>
-                            <InArgument x:TypeArguments="x:Double">[CDec(Convert.ToDouble(dtWC_Releases.Rows(rowIndex)("BI")))]</InArgument>
-                          </Assign.Value>
-                        </Assign>
-                        <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_86">
-                          <Assign.To>
-                            <OutArgument x:TypeArguments="x:Object">[dtWC_Releases.Rows(rowIndex)("BH")]</OutArgument>
-                          </Assign.To>
-                          <Assign.Value>
-                            <InArgument x:TypeArguments="x:Object">[decValorActual + decValorWC]</InArgument>
-                          </Assign.Value>
-                        </Assign>
+                        <Sequence DisplayName="Colomna BI" sap:VirtualizedContainerService.HintSize="504,1131" sap2010:WorkflowViewState.IdRef="Sequence_175">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <If Condition="[Not String.IsNullOrEmpty(If(CurrentRow(&quot;7-oct&quot;), &quot;&quot;).ToString()) AndAlso Decimal.TryParse(CurrentRow(&quot;7-oct&quot;).ToString(), Nothing)]" sap:VirtualizedContainerService.HintSize="470,471" sap2010:WorkflowViewState.IdRef="If_18">
+                            <If.Then>
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,166" sap2010:WorkflowViewState.IdRef="Sequence_176">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_89">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:Double">[decValorActual]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:Double">[Convert.ToDouble(CurrentRow("7-oct"))]</InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                              </Sequence>
+                            </If.Then>
+                            <If.Else>
+                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,166" sap2010:WorkflowViewState.IdRef="Sequence_177">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_94">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:Double">[decValorActual]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:Double">0</InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                              </Sequence>
+                            </If.Else>
+                          </If>
+                          <If Condition="[Not String.IsNullOrWhiteSpace(If(dtWC_Releases.Rows(rowIndex)(&quot;BI&quot;) Is Nothing, &quot;&quot;, dtWC_Releases.Rows(rowIndex)(&quot;BI&quot;).ToString())) AndAlso Decimal.TryParse(If(dtWC_Releases.Rows(rowIndex)(&quot;BI&quot;) Is Nothing, &quot;&quot;, dtWC_Releases.Rows(rowIndex)(&quot;BI&quot;).ToString()), decValor)]" sap:VirtualizedContainerService.HintSize="470,471" sap2010:WorkflowViewState.IdRef="If_19">
+                            <If.Then>
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,166" sap2010:WorkflowViewState.IdRef="Sequence_178">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_88">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:Double">[decValorWC]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:Double">[CDec(Convert.ToDouble(dtWC_Releases.Rows(rowIndex)("BI")))]</InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                              </Sequence>
+                            </If.Then>
+                            <If.Else>
+                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,166" sap2010:WorkflowViewState.IdRef="Sequence_179">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_95">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:Double">[decValorWC]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:Double">0</InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                              </Sequence>
+                            </If.Else>
+                          </If>
+                          <Assign sap:VirtualizedContainerService.HintSize="470,106" sap2010:WorkflowViewState.IdRef="Assign_86">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:Object">[dtWC_Releases.Rows(rowIndex)("BI")]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:Object">[decValorActual + decValorWC]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
                       </Sequence>
                     </Sequence>
                   </If.Then>
                   <If.Else>
-                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="502,387" sap2010:WorkflowViewState.IdRef="Sequence_163">
+                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="572,602" sap2010:WorkflowViewState.IdRef="Sequence_163">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{Currentrow(&quot;WorkCenter&quot;), Convert.ToDouble(CurrentRow(&quot;7-oct&quot;))}]" DataTable="[dtWC_Releases]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="468,221" sap2010:WorkflowViewState.IdRef="AddDataRow_5" />
-                      <Assign sap:VirtualizedContainerService.HintSize="468,106" sap2010:WorkflowViewState.IdRef="Assign_87">
-                        <Assign.To>
-                          <OutArgument x:TypeArguments="x:Int32">[dictWC_Index(CurrentRow("WorkCenter").ToString())]</OutArgument>
-                        </Assign.To>
-                        <Assign.Value>
-                          <InArgument x:TypeArguments="x:Int32">[dtWC_Releases.Rows.Count - 1]</InArgument>
-                        </Assign.Value>
-                      </Assign>
+                      <If Condition="[Not String.IsNullOrEmpty(CurrentRow(&quot;7-oct&quot;).ToString())]" sap:VirtualizedContainerService.HintSize="538,542" sap2010:WorkflowViewState.IdRef="If_20">
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,387" sap2010:WorkflowViewState.IdRef="Sequence_180">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{Currentrow(&quot;WorkCenter&quot;), Convert.ToDouble(CurrentRow(&quot;7-oct&quot;))}]" DataTable="[dtWC_Releases]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="434,221" sap2010:WorkflowViewState.IdRef="AddDataRow_5" />
+                            <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_87">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:Int32">[dictWC_Index(CurrentRow("WorkCenter").ToString())]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:Int32">[dtWC_Releases.Rows.Count - 1]</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,25" sap2010:WorkflowViewState.IdRef="Sequence_181">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </If.Else>
+                      </If>
                     </Sequence>
                   </If.Else>
                 </If>
@@ -1474,7 +1616,7 @@
           </ui:ForEachRow.Body>
         </ui:ForEachRow>
       </Sequence>
-      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="606,1335" sap2010:WorkflowViewState.IdRef="TryCatch_10">
+      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="650,1335" sap2010:WorkflowViewState.IdRef="TryCatch_10">
         <TryCatch.Try>
           <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="604,918" sap2010:WorkflowViewState.IdRef="Sequence_165">
             <sap:WorkflowViewStateService.ViewState>
@@ -1549,7 +1691,7 @@
           </Sequence>
         </TryCatch.Finally>
       </TryCatch>
-      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="606,109" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Proceso terminado&quot;]" />
+      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="650,109" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Proceso terminado&quot;]" />
     </Sequence>
   </Sequence>
 </Activity>
